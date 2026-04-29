@@ -44,28 +44,28 @@ Memory, Control Unit, Register File, ALU, Data Memory, and Stack.
 All modules individually verified in Questa Intel FPGA Starter Edition.
 
 ### ALU
-![ALU Simulation](sim/alu_waves.png)
+![ALU Simulation](alu.png)
 
 ### Register File
-![Register File Simulation](sim/reg_file_waves.png)
+![Register File Simulation](reg_file.png)
 
 ### Program Counter
-![Program Counter Simulation](sim/program_counter_waves.png)
+![Program Counter Simulation](program_counter.png)
 
 ### Instruction Memory
-![Instruction Memory Simulation](sim/instr_mem_waves.png)
+![Instruction Memory Simulation](instr_mem.png)
 
 ### Data Memory
-![Data Memory Simulation](sim/data_mem_waves.png)
+![Data Memory Simulation](data_mem.png)
 
 ### Stack
-![Stack Simulation](sim/stack_waves.png)
+![Stack Simulation](stack.png)
 
 ### Control Unit
-![Control Unit Simulation](sim/control_unit_waves.png)
+![Control Unit Simulation](control_unit.png)
 
 ### Full CPU Running
-![CPU Top Simulation](sim/cpu_top_waves.png)
+![CPU Top Simulation](cpu_top.png)
 
 ## Tools Used
 
