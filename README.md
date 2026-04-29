@@ -30,14 +30,14 @@ Memory, Control Unit, Register File, ALU, Data Memory, and Stack.
 
 | Module | File | Description |
 |--------|------|-------------|
-| ALU | src/alu.v | Supports ADD, SUB, AND, OR, PASS |
-| Register File | src/reg_file.v | 8x8-bit registers, 2 read ports, 1 write port |
-| Program Counter | src/program_counter.v | 8-bit PC with jump and reset |
-| Instruction Memory | src/instr_mem.v | 256x16-bit ROM |
-| Data Memory | src/data_mem.v | 256x8-bit RAM |
-| Stack | src/stack.v | 16-deep LIFO stack with SP |
-| Control Unit | src/control_unit.v | Opcode decoder, generates all control signals |
-| CPU Top | src/cpu_top.v | Full integration of all modules |
+| ALU | alu.v | Supports ADD, SUB, AND, OR, PASS |
+| Register File | reg_file.v | 8x8-bit registers, 2 read ports, 1 write port |
+| Program Counter | program_counter.v | 8-bit PC with jump and reset |
+| Instruction Memory | instr_mem.v | 256x16-bit ROM |
+| Data Memory | data_mem.v | 256x8-bit RAM |
+| Stack | stack.v | 16-deep LIFO stack with SP |
+| Control Unit | control_unit.v | Opcode decoder, generates all control signals |
+| CPU Top | cpu_top.v | Full integration of all modules |
 
 ## Simulation Results
 
@@ -78,9 +78,9 @@ All modules individually verified in Questa Intel FPGA Starter Edition.
 
 1. Open Questa Intel FPGA Starter Edition
 2. Compile all source files:
-3. vlog +acc src/alu.v src/reg_file.v src/program_counter.v
-src/instr_mem.v src/data_mem.v src/stack.v
-src/control_unit.v src/cpu_top.v tb/cpu_top_tb.v
+3. vlog +acc alu.v reg_file.v program_counter.v
+instr_mem.v data_mem.v stack.v
+control_unit.v cpu_top.v tb/cpu_top_tb.v
 3. Load simulation:
 vsim +acc work.cpu_top_tb
 4. Add waves and run:
