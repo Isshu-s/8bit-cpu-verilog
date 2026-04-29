@@ -50,7 +50,7 @@ All modules individually verified in Questa Intel FPGA Starter Edition.
 ![Register File Simulation](reg_file.png)
 
 ### Program Counter
-![Program Counter Simulation](program_counter.png)
+![Program Counter Simulation](pc.png)
 
 ### Instruction Memory
 ![Instruction Memory Simulation](instr_mem.png)
